@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAPzmpA8GaJKLtiVcZ/3LwoQwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkYmViYTcwZWEtNjBkNC00N2UyLThiMjgtYzM3OGUyODgxNmQx
+    MB4XDTE5MDYwNzE1MzgyOFoXDTI0MDYwNTE2MzgyOFowLzEtMCsGA1UEAxMkYmVi
+    YTcwZWEtNjBkNC00N2UyLThiMjgtYzM3OGUyODgxNmQxMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEA54ESKsd281cZ/HIBvglL/NUIIwRVrok9VamNAyBk
+    jM1rr+yl87aVATBryWj+yrXPRGBwYcMa9sDfQ3DyND796vId+8zetw3ZRJyMxFmf
+    RqlwThwyFcDLwihs+s6To4TkCPhjBOt/2u7T5TRi/zrcGUJCwHzB2D8UG40DKFq7
+    NCK2ZLNQZYNo0d6DkcTRQlh0j1+AJnZ9JA6SvYLPPGCGVvDogvap5NCMQJeVQKW2
+    14hCob59vfyPN5D+FNOqt+H9qvcLYGsRguIXK4M78hc0pIEVwbQnVtNATVt4MJrx
+    nHOMJg+/V23TjIIXXdwiIaM0KjlsmRpBJmUfP/fxt/8J+QIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    cyToUR5YB6wfqm97wKSywjVma9es3m9O6yDzNpiIoWFY2AvSmrhUqqjsL7m0/GY0
+    dlhfnv0VKyZm9AGm3S6k15Og5oPaoYDkZ4+yCxkrJqdyd6ShWqwt4H1Z0WFgoSsx
+    QLzfnxg8Ur0kuDA9GnMqeRfQVHlsVxlPYLVcprRKQUYd2xAuu0HZqrwF44s53UcX
+    HjA+DHZeMAK/PfGLqRwMYN+mOkJWUfSo8lkSlW9POt2/EqvE7nvtCAWod/b2dGUO
+    4PBjC7MxZ8y6tZII1WH7UZU8ixJ+TA94R0qvOEF/6nN/AWV5T5djF4trpzpc5pOq
+    ZmIszZYSKyZzF/u+/gUhdQ==
+    -----END CERTIFICATE-----
+  clusterName: eaterhazel
+  jx-install-version: 2.0.0-dev+25a888103
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://35.190.222.124
+  systemVaultName: jx-vault-eaterhazel
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
